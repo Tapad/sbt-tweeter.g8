@@ -60,7 +60,7 @@ sbt new file://plugin/src/main/g8/scripted-test.g8
 
 You will be prompted to give a name to the new scripted test that will be generated.
 
-Once template evaluation is complete, you should have a new, standalone sbt project available in the `plugins/src/main/sbt-test/sbt-tweeter` directory.
+Once template evaluation is complete, you should have a new, standalone sbt project available in the `plugin/src/main/sbt-test/$name$` directory.
 
 ## Testing
 Unit tests can be written against both the library and plugin subprojects, however, they are currently only written for the library subproject.
