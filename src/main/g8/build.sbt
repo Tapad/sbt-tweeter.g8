@@ -15,5 +15,5 @@ lazy val library = (project in file("library"))
     name := "$name$-lib",
     scalaVersion := "2.10.6",
     crossScalaVersions ++= Seq("2.11.11", "2.12.2"),
-    libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.0" % Test
+    libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" % Test
   )
